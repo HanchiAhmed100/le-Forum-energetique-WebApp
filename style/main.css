@@ -1,0 +1,135 @@
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+#login-dp .help-block {
+    font-size: 12px
+}
+
+#login-dp .bottom {
+    background-color: rgba(255, 255, 255, .8);
+    border-top: 1px solid #18bc91;
+    clear: both;
+    padding: 14px;
+}
+
+.navbar-inverse {
+    border-radius: 0px
+}
+
+#login-dp .social-buttons {
+    margin: 12px 0
+}
+
+#login-dp .social-buttons a {
+    width: 49%;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+@media(max-width:768px) {
+    #login-dp {
+        background-color: inherit;
+        color: black;
+    }
+    #login-dp .bottom {
+        background-color: inherit;
+        border-top: 0 none;
+    }
+}
+
+.separator {
+    height: 3px;
+    width: 127px;
+    margin: 25px auto;
+    background: #18bc91;
+}
+
+.uk-accordion-title {
+    color: #18bc91;
+}
+
+option {
+    color: black
+}
+
+input.form-control {
+    color: #000
+}
+
+input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: black;
+}
+
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: black;
+}
+
+input::-ms-input-placeholder {
+    /* IE 10+ */
+    color: black;
+}
+
+input::-moz-placeholder {
+    /* Firefox 18- */
+    color: black;
+}
+
+input:focus {
+    color: black;
+}
+
+input:active {
+    color: black;
+}
+
+.btnsub {
+    background: transparent;
+    border-color: #fff;
+    border-radius: 0px
+}
+
+.fa {
+    transition: 1s
+}
+
+.fa-facebook:hover {
+    padding: 7px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    color: #31b0d5;
+    padding-left: 20px;
+    transition: 1s
+}
+
+* {
+    font-family: 'Bellefair', serif;
+    font-size: 22px
+}
+
+h1 {
+    font-family: 'Bellefair', serif;
+}
+
+h2 {
+    font-family: 'Bellefair', serif;
+}
+
+h4 {
+    font-family: 'Bellefair', serif;
+}
+
+h3 {
+    font-family: 'Bellefair', serif;
+}
+
+.uk-countdown-number>span {
+    font-size: 42px
+}

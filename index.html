@@ -1,0 +1,509 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ENIM Club energetique</title>
+    <meta name="keywords" content="EnergyClub2018, ENIM, Energétique, CLUB Monastir,Form Energetique ,Hanchi Ahmed">
+    <meta name="author" content="Hanchi Ahmed">
+    <meta name="description" content="Club Energétique Enim Monastir">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+    <link rel="icon" sizes="144x144" href="images/77.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/uikit.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+    <script src="script/jquery.js"></script>
+    <script src="script/uikit.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/uikit-icons.min.js"></script>
+    <script src="script/main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" uk-parallax="target:#form;background-color:#18bc91,#15a589; viewport: 0.5;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> 
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home-slide" uk-scroll>Accueil</a></li>
+                    <li><a href="#persentation" uk-scroll>Presentation</a></li>
+                    <li><a href="#objectifs" uk-scroll>Objectifs</a></li>
+                    <li><a href="#responsable" uk-scroll>Responsable</a></li>
+                    <li><a href="#event" uk-scroll>La competition Energétique</a></li>
+                    <li><a href="#form" uk-scroll>Inscription à la competition </a></li>
+                    <li><a href="#foot" uk-scroll>Contact </a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                        <ul id="login-dp" class="dropdown-menu">
+                            <li>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <form class="form" method="post" action="assets/GetAuth.php">
+                                            <div class="form-group">
+                                                <input type="email" class="uk-input" style="color:black;border-radius:0px" name="mail" placeholder="Email address" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="uk-input" name="pass" style="color:black;border-radius:0px" placeholder="Password" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="submit" class="btn btn-success btn-block">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="home-slider" class="uk-position-relative uk-visible-toggle uk-margin-large " uk-slideshow="autoplay: true">
+
+        <ul class="uk-slideshow-items uk-dark" uk-height-viewport="offset-top: true; offset-bottom: 30;min-height: 650">
+            <li>
+                <div class="item">
+                    <img src="images/2.jpg" alt="" class="img img-responsive " uk-cover>
+                </div>
+                <div class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-large">
+                    <h3 class="uk-margin-remove">Club Energétique</h3>
+                    <p class="uk-margin-remove">Ecole Nationale d'Ingénieurs de Monastir</p>
+                </div>
+            </li>
+            <li>
+                <img src="images/18058176_1401577753198153_645445677534450403_n.jpg" alt="" uk-cover>
+                <div class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-large">
+                    <h3 class="uk-margin-remove">Club Energétique</h3>
+                    <p class="uk-margin-remove">Ecole Nationale d'Ingénieurs de Monastir</p>
+                </div>
+            </li>
+            <li>
+                <img src="images/la famille.jpg" alt="" uk-cover>
+                <div class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-large">
+                    <h3 class="uk-margin-remove">Club Energétique</h3>
+                    <p class="uk-margin-remove">Ecole Nationale d'Ingénieurs de Monastir</p>
+                </div>
+            </li>
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    </div>
+    <div class="container">
+        <br>
+        <div class="col-sm-12 text-center uk-padding-large uk-margin-small" id="persentation"><br>
+            <h1>Presentation : </h1>
+            <div class="separator"></div>
+            <p>Club énergétique est un club scientifique faisant part de l’association ING.ENIM fondée en 2011 par des élèves ingénieurs, motivés et enthousiastes envisageant un meilleur futur pour un énergéticien.
+            </p>
+            <p>Club énergétique est définie comme un trait d’union entre l’université et le monde professionnel. Son activité vise à doter les étudiants d’y mettent en pratique L’enseignement théorique et les différents connaissances qu’ils reçoivent en
+                réalisant des projets professionnels, participer à des formations dans diverses domaines et faire des visites d’études guidées aux complexes industriels.</p>
+
+
+        </div>
+    </div>
+                    <div id="test-target" class="uk-height-medium uk-background-cover uk-light" uk-parallax="bgy: -600" style="background-image: url('images/LOOP.jpg');">
+    </div>
+
+    <div class="container text-center uk-padding" style="border-radius: 0px">
+        <h1>Objectifs : </h1>
+        <div class="separator"></div>
+        <p>Notre club a pour vocation d’imprégner les esprits estudiantins des notions d’innovation et de créativité à travers de riches programmes , chaque année , mêlant activités et événements , aussi variés qu’attirant .<br>Parmi ces activités , citons :
+        </p>
+        <div class="uk-grid-match" uk-grid>
+            <div class="uk-width-1-3@m">
+                <div class="uk-card uk-card-default uk-card-body">
+                    Créer un environnement convivial et dynamique en encourageant les étudiants à s’impliquer dans les différentes activités du club.
+                </div>
+            </div>
+            <div class="uk-width-1-3@m">
+                <div class="uk-card uk-card-default uk-card-body">
+                    Partager des idées et des connaissances dans différents domaines, dans un esprit convivial
+                </div>
+            </div>
+            <div class="uk-width-1-3@m">
+                <div class="uk-card uk-card-default uk-card-body">
+                    Hisser le niveau scientifique des étudiants dans le domaine des énergies et développer chez eux un esprit scientifique.
+                </div>
+            </div>
+        </div>
+        <hr class="uk-divider-icon">
+        <div uk-grid>
+            <div class="uk-width-1-3@m">
+                <div class="uk-card uk-card-default uk-card-body">
+                    Soutenir, encourager et donner des conseils étudiants.
+                </div>
+            </div>
+            <div class="uk-width-1-3@m">
+                <div class="uk-card uk-card-default uk-card-body">
+                    Développer en chacun des étudiants le sens de la recherche et du travail du groupe.
+                </div>
+            </div>
+            <div class="uk-width-1-3@m">
+                <div class="uk-card uk-card-default uk-card-body">
+                    Réaliser un cadre permanent de performance collective
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="alert alert-success uk-light uk-padding-large uk-text-center" style="border-radius: 0px;color:white">
+        <h2 class="uk-text-center">Le Club Energétique </h2>
+        <div uk-grid>
+
+            <div class="uk-width-1-2@m"><i class="fa fa-users fa-3x"><br><p>+ 50 MEMBRE </p></i></div>
+            <div class="uk-width-1-2@m"><i class="fa fa-birthday-cake fa-3x"><br> <P>8 ANS DEPUIS SA CREATION</P></i></div>
+        </div>
+    </section>
+    <div class="container uk-padding-large uk-text-center">
+        <h1 class="">
+            Nos actions les plus privilégiées :<br>
+        </h1>
+        <div class="col-sm-6" class="uk-padding">
+            <img src="images/14910510_987836494660306_2592855216732677479_n.jpg" class="img img-responsive">
+        </div>
+        <div class="col-sm-6">
+            <ul class="uk-text-left" uk-accordion>
+                <li>
+                    <a class="uk-accordion-title" href="#">Forum Energétique 2016/2017 :Energie de l’ère & Energie renouvelable
+                            </a>
+                    <div class="uk-accordion-content">
+                        <p>Face à la situation alarmante de nos ressources énergétiques et la détérioration du solde énergétique tunisien, ce forum était un meilleur cadre permettant de sensibiliser le gouvernement tunisien à engager un certain nombre d’actions
+                            , parmi lesquelles : la mise en valeurs des énergies renouvelables. Il était une opportunité pour échanger des informations , des expériences et des connaissances qui permettent aux professionnels , experts et futurs ingénieurs
+                            de savoir l’impact des énergies nouvelles dans la réalisation de l’autosuffisance d’énergie et la garantie de l’approvisionnement du pays en ressources énergétiques.
+                            
+                            Ce forum a connu un grand succès à la présence d’intervenants de renommée et grâce à l’engagement et au professionnalisme des membres du club énergétique. Le Club énergétique s’assure de faire intervenir les plus grandes références
+                            scientifiques dans le domaine pour aborder des thèmes novateurs et de grand intérêt liés aux énergies renouvelables. Nos membres étaient honorés par la présence des experts et des gens expérimentés tunisiens et allemands dans
+                            ce domaine parmi lesquels : M. Taher Achour « syndicat des énergies renouvelables », Mme Schiendier kovats « Directrice DAAD bureau Tunis », M.Jalel Hadhri « President et CEO à OGIM ».
+                            <hr>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">Forum pétrole : 1ére et 2éme édition :
+                            </a>
+                    <div class="uk-accordion-content">
+                        <p>Encore un défis gagné par notre club qui , malgré la sensibilité du sujet du forum , est arrivé à réussir cet évènement qui a connu une grande ampleur et visibilité. Bien que ce Forum voie le jour pour la première fois , il a connu
+                            la participation des notoriétés de haut niveau , des chercheurs des conférenciers , on cite parmi lesquels : M. Béchir Nahdi « ancien PDG de l’ETAP », M.Youssef Bahri « Ancien PDG de SNDP, M. Ali Gaaya «  consultant international
+                            TEICO ».
+                            <hr>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="uk-section-muted" id="responsable">
+        <div class="uk-padding-large uk-margin text-center">
+            <h1>Les Responsables</h1>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div uk-lightbox="animation: slide">
+                    <div class="col-sm-2">
+                        <a class="uk-inline" href="images/dhia.jpg" caption="Président ">
+                            <img src="images/dhia.jpg" class="img img-rounded img-thumbnail" width="275px" height="300px">
+                        </a>
+                        <h4>Dhia Mosbeh</h4>
+                        <p>Président</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <a class="uk-inline" href="images/oumaima.jpg" caption=" Vice président">
+                            <img src="images/oumaima.jpg" class="img img-rounded img-thumbnail" width="275px" height="300px" style="min-height: 110px;max-height: 125px">
+                        </a>
+                        <h4>Oumaima Nouredine</h4>
+                        <p>Vice Président</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <a class="uk-inline" href="images/ouni.jpg" caption="Trésorier ">
+                            <img src="images/ouni.jpg" class="img img-rounded img-thumbnail" width="275px" height="300px">
+
+                        </a>
+                        <h4>Mohamed Ouni</h4>
+                        <p>Trésorier</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <a class="uk-inline" href="images/amira.jpg" caption="Sectetaire générale ">
+                            <img src="images/amira.jpg" class="img img-rounded img-thumbnail" width="275px" height="300px">
+                        </a>
+                        <h4>Amira Bouzid</h4>
+                        <p>Secrétaire Générale</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <a class="uk-inline" href="images/amen.jpg" caption="Communication ">
+                            <img src="images/amen.jpg" class="img img-rounded img-thumbnail" width="275px" height="300px">
+                        </a>
+                        <h4>Amen Dhaouidi</h4>
+                        <p>Communication</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="alert alert-success uk-light uk-padding-large uk-text-center" id="event" style="border-radius: 0px;color:white">
+        <p>
+            Energy Club organise cette année un forum unique en son genre qui aura lieu à Enim le 21 avril 2018, ce forum portera sur "l'intelligence artificielle et ses bénéfices sur le secteur de l'énergie" cette année et pour la première fois il y aura un concours
+            dans les secteurs de l'énergie et de l'entrepreneuriat. Le club de l'énergie ING-ENIM avec cet événement va essayer de pousser plus loin le secteur de l'industrie en soulignant son importance pour implémenter l'intelligence artificielle plus,
+            parce que nous croyons que cette nouvelle technique va certainement révolutionner le secteur de l'énergie!</p>
+    </section>
+    <section class="uk-padding-large uk-margin-large text-center">
+        <h1 class="uk-heading-divider">La compétition Energétique</h1>
+
+        <h3 class="uk-text-primary">
+            Description :
+        </h3>
+        <p class="uk-text-justify">Cette année, le club énergétique organise non seulement un forum sur 'l’intelligence artificielle' mais lance également sa première édition d’une compétition nationale, cette compétition qui aura lieu à l'ENIM le même jour du forum le 21 avril
+            2018 et qui sera basé à la fois sur les domaines de l'énergie et de l'entrepreneuriat et dans laquelle chaque équipe devrait trouver une solution raisonnable, innovante et réalisable pour un problème spécifique en TUNISIE tel que le changement
+            climatique,le manque d’eau , les énergies renouvelables ...<br> - Chaque équipe devrait préparer un projet (power point) dans lequel il expliquera la solution choisie et répondra aux trois questions: quoi? , pourquoi? et comment?<br> - Ajoutez
+            à cela, il devrait préparer un « business model » dans lequel il expliquera l'applicabilité de son projet dans la vraie vie et répondra aux trois questions: combien cela va-t-il coûter? , qui est votre cible? et combien sera le bénéfice (approximativement)?<br>            - Un prototype: il n'est pas nécessaire de faire un prototype mais au cas où l'équipe en réaliserait un, il obtiendrait des points bonus.<br>
+        </p>
+        <h3 class="uk-text-primary">
+            Phase de candidature :
+        </h3>
+        <p class="uk-text-justify">La compétition Energétique va concerner toute personne intéressée par le domaine énergétique et visant à trouver des solutions innovantes dans ce domaine. Pour participer à la compétition il faut avoir une équipe contenant de 2 à 4 personnes Un
+            formulaire de candidature sera disponible sur notre page « lien de page » ou bien sur notre site web « le site » Le formulaire sera disponible pendant une période bien définie après il y aura une présélection des projets selon ce formulaire
+            c’est pour cela veuillez le remplir soigneusement.
+        </p>
+        <h4 class="uk-text-justify">
+            Critères de sélection :
+        </h4>
+        <p class="uk-text-justify">
+            Chaque équipe doit préparer un pitch en français avec une durée de 7 minutes et elle doit y détailler tout et surtout le Business Model. <br> Les projets seront sélectionnés en fonction d’un système des points c’est-à-dire il y aura une grille
+            de note selon laquelle le jury va évaluer les projets
+        </p>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/ing enim.jpg" class="img img-responsive">
+            </div>
+            <div class="col-md-6">
+                <h1><br>Pour Telecharger le cahier des charge du challenge <br><a href="PDF/Cahier-Des-Charges.pdf">cliquer ici</a></h1>
+            </div>
+            <div class="col-md-3">
+                <img src="images/307647.jpg" class="img img-responsive">
+            </div>
+
+        </div>
+    </section>
+    <section id='form' class="alert alert-success uk-light uk-padding-large uk-margin-remove-top uk-margin-remove-bottom uk-text-center" style="border-radius: 0px;color:white">
+        <div class="row text-center">
+            <h2 class="uk-text-center">Pour s'inscrire veuillez remplire ce formulaire ci-dessous</h2>
+
+            <div class="col-sm-9 col-sm-offset-3 none">
+
+                <div class="uk-grid-small uk-child-width-auto uk-padding-small uk-padding-remove-top" uk-grid uk-countdown="date: 2019-04-21T00:00:00+00:00">
+                    <h4>Il vous reste :<br> </h4>
+
+                    <div>
+                        <div class="uk-countdown-number uk-countdown-days"></div>
+                        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="font-size:28px">Days</div>
+                    </div>
+                    <div class="uk-countdown-separator">:</div>
+                    <div>
+                        <div class="uk-countdown-number uk-countdown-hours"></div>
+                        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="font-size:28px">Hours</div>
+                    </div>
+                    <div class="uk-countdown-separator">:</div>
+                    <div>
+                        <div class="uk-countdown-number uk-countdown-minutes"></div>
+                        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="font-size:28px">Minutes</div>
+                    </div>
+                    <div class="uk-countdown-separator">:</div>
+                    <div>
+                        <div class="uk-countdown-number uk-countdown-seconds"></div>
+                        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s" style="font-size:28px">Seconds</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <form action="assets/SetGroupe.php" method="post">
+                    <div class="col-sm-3">
+                        <label>Nom de l'equipe :</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" name="groupName" class="uk-input uk-margin-small" style="color:black" placeholder="Nom de l'equipe" required>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Nombre de participant :</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <select class="uk-select uk-margin-small" name="nombre" id="select" style="color:black" onchange="f1()" required>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label> Le leader :</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="LName" class="uk-input uk-margin-small" style="color:black" placeholder="Nom & Prenom Du leader" required>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="number" name="LTel" class="uk-input uk-margin-small" style="color:black" placeholder="Telephone" required>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="LMail" class="uk-input uk-margin-small" style="color:black" placeholder="exemple@gmail.com" required>
+                    </div>
+                    <div class="col-sm-3">
+                        <label> Participant 2 :</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="SName" class="uk-input uk-margin-small" style="color:black" placeholder="Nom & Prenom" required>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="number" name="STel" class="uk-input uk-margin-small" style="color:black" placeholder="Telephone" required>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="SMail" class="uk-input uk-margin-small" style="color:black" placeholder="exemple@gmail.com" required>
+                    </div>
+                    <div class="p3">
+                        <div class="col-sm-3 ">
+                            <label>Participant 3 :</label>
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="text" name="TName" class="uk-input uk-margin-small" style="color:black" placeholder="Nom">
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="number" name="TTel" class="uk-input uk-margin-small" style="color:black" placeholder="Telephone">
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="text" name="TMail" class="uk-input uk-margin-small" style="color:black" placeholder="exemple@gmail.com">
+                        </div>
+                    </div>
+                    <div class="p4">
+                        <div class="col-sm-3">
+                            <label>Participant 4 :</label>
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="text" name="FName" class="uk-input uk-margin-small" style="color:black" placeholder="Nom & Prenom">
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="number" name="FTel" class="uk-input uk-margin-small" style="color:black" placeholder="Telephone">
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="text" name="FMail" class="uk-input uk-margin-small" style="color:black" placeholder="exemple@gmail.com">
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>cité :</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" name="city" class="uk-input uk-margin-small" style="color:black" placeholder="Nom de cité" required>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Université :</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" name="university" class="uk-input uk-margin-small" style="color:black" placeholder="Nom de l'université" required>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <input type="submit" class="btn btn-block btnsub">
+                    </div>
+                </form>
+            </div>
+
+    </section>
+
+    <footer class="footer uk-padding-large uk-section uk-section-secondary uk-light" id="foot">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3 class="muted-text uk-text-left">Navigation : </h3>
+                            <ul class="uk-list uk-text-left">
+                                <li class="active"><a href="#home-slide" uk-scroll>Accueil</a></li>
+                                <li><a href="#persentation" uk-scroll>Presentation</a></li>
+                                <li><a href="#objectifs" uk-scroll>Objectifs</a></li>
+                                <li><a href="#responsable" uk-scroll>Responsable</a></li>
+                                <li><a href="#event" uk-scroll>La competition Energétique</a></li>
+                                <li><a href="#form" uk-scroll>Inscription à la competition </a></li>
+                                <li><a href="#foot" uk-scroll>Contact </a></li>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5 uk-margin">
+                    <div class="row text-justify">
+                        <div class="col-xs-12">
+                            <H4>Vous pouvez nous rejoindre sur <a href="https://www.facebook.com/EnergyClub2018/"><i class="fa fa-facebook fa-2x"></i></a></H4>
+                        </div>
+                        <div class="col-xs-12">
+                            <h4><i class="fa fa-phone"></i> Telephone : 27 276 821</h4>
+                        </div>
+                        <div class="col-xs-12">
+                            <h4><i class="fa fa-comment"></i> Messanger : @EnergyClub2018 </h4>
+                        </div>
+                        <div class="col-xs-12">
+                            <h4><i class="fa fa-map-marker"></i> Adresse : Rue Ibn El Jazzar - Monastir - 5000 Rue Ibn Jazzar, Monastir 5035</h4>
+                        </div>
+                        <div class="col-xs-12">
+                            <h4><i class="fa fa-globe"></i>
+                                <a href="http://www.enim.rnu.tn/index.php/fr/">Site officiel de l'ENIM</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="uk-light">
+            <div class="container">
+                <div class="row">
+                    <p>&copy; All right reserved 2018 </p>
+                    <p class="pull-right">Created & Designed by <a href="Notification.php?M=H">Hanchi Ahmed</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script>
+    $(document).ready(function() {
+        var slideHeight = $(window).height();
+        $('#home-slider .item').css('height', slideHeight);
+
+        $(window).resize(function() {
+            'use strict',
+            $('#home-slider .item').css('height', slideHeight);
+        });
+
+
+        $('.p3').hide();
+        $('.p4 ').hide();
+    });
+
+    function f1() {
+        $op = $('#select').val();
+        if ($op == 2) {
+            $('.p3 , .p4 ').hide();
+        }
+        if ($op == 3) {
+            $('.p3').show();
+            $('.p4 ').hide();
+        }
+        if ($op == 4) {
+            $('.p3').show();
+            $('.p4 ').show();
+        }
+
+
+    };
+</script>
+
+</html>
